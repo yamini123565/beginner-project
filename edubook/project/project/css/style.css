@@ -1,0 +1,95 @@
+
+.course-grids {
+	text-align:center;
+}
+.course-grid img {
+	border: 10px solid#808080;
+}
+
+.span {
+	border-left: 1px solid#fff;
+	border-right: 1px solid#fff;
+	
+}
+.course-grid{
+	position:relative;
+	padding: 15px 0;
+}
+.course-info {
+	position:  absolute;
+	width: 40%;
+	left: 90px;
+	top: 50px;
+	display:none;
+}
+.course-info h3{	
+	font-size: 2em;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.course-grid:hover div.course-info{
+	display:block;
+	background: rgba(0, 0, 0, 0.51);
+	padding: 50px 30px;
+}
+.coursesection-info{
+	background:url("../images/banner2.jpg");
+	background-size:cover;
+	min-height:350px;
+	text-align: center;
+}
+.course-infogrids {
+	padding: 8em 0;
+}
+.label1 {
+	margin-top: 3em;
+}
+.label2 {
+	margin-top: 1.5em;
+}
+.course-grid1 {
+	padding: 20px 0;
+}
+.course-grid1 h4 {
+	font-size: 2.5em;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 0;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}

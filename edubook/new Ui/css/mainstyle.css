@@ -1,0 +1,28 @@
+body{
+	background: url(../images/img01.jpg) repeat-x left top;
+	}
+
+#header{
+	background: url(../images/bg-navigation.png) no-repeat;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+
+#mainbody{
+ margin-top: 20px;
+}
+#post_content{
+	overflow: auto;
+	overflow-y: hidden;
+}
+#footer{
+	background: url(../images/bg-navigation.png) no-repeat;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+
+}

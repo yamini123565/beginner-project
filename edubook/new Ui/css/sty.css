@@ -1,0 +1,125 @@
+body {
+	background: #7E8794;
+	font-family: "Times New Roman", Times, serif;
+	margin: 0;
+}
+#background {
+	
+	min-height: 100%;
+	width: 100%;
+}
+span{
+	size: inherit;
+}
+body a{
+    transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+.header{
+	background:#486c88;
+	padding: 0.5em 1.5em;
+}
+.head-nav {
+	float: left;
+}
+.social{
+	float:right;
+	margin: 2em 0em 0em;
+	border-left: 1px solid #ffffff;
+	padding: 0em 0em 0em 2em;
+}
+.social ul{
+	padding:0;
+	margin:0;
+}
+.social ul li {
+	display: inline-block;
+}
+.head-nav ul li a{
+	position: relative;
+	display: inline-block;
+	margin: 0px 0px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.2em;
+}
+.head-nav a:hover,
+.head-nav a:focus {
+	outline: none;
+}
+.head-nav {
+	padding: 2em 0em;
+}
+.head-nav ul{
+	padding:0;
+	margin: 0;
+}
+*,
+*:after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.head-nav ul li {
+	display: inline-block;
+	margin: 0 .5em;
+	outline: none;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 16px;
+}
+.head-nav ul li a{
+	color: #fff;
+}
+.head-nav ul li a:hover, .head-nav ul li.active a{
+	color:#5eb703;
+}
+ul a:hover,
+ul a:focus {
+	outline: none;
+	color: #FFF;
+	text-decoration: none;
+}
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
+}

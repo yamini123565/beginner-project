@@ -1,0 +1,38 @@
+body{
+	background: url(../images/img01.jpg) repeat-x left top;
+	}
+#wrapper{
+
+	
+}
+#header{
+	background: url(../images/bg-navigation.png) no-repeat;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	padding: 1px;
+}
+#leftside{
+	;
+	height: 80%;
+	width: 200px;
+}
+#mainbody{
+	
+	height: 80%;
+	width: 800px;
+}
+#rightside{
+
+	height: 80%;
+	width: 200px;
+}
+#footer{
+	background: url(../images/bg-navigation.png) no-repeat;
+	clear: both;
+	height: 50px;
+	width: 860px;
+	margin: 0 auto;
+	
+}
